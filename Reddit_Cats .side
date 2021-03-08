@@ -375,6 +375,82 @@
       ],
       "value": "smelly cats"
     }]
+  }, {
+    "id": "5f5f3e0e-9c4b-4b9e-96bf-6d3e8f9b0699",
+    "name": "FUN-RULE-3",
+    "commands": [{
+      "id": "8ba743d3-9cf1-4559-9ecf-11c5de713927",
+      "comment": "",
+      "command": "open",
+      "target": "/",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "08a14cae-9a39-44ad-8a9e-93534a6fdaae",
+      "comment": "",
+      "command": "click",
+      "target": "id=header-search-bar",
+      "targets": [
+        ["id=header-search-bar", "id"],
+        ["name=q", "name"],
+        ["css=#header-search-bar", "css:finder"],
+        ["xpath=//input[@id='header-search-bar']", "xpath:attributes"],
+        ["xpath=//div[@id='SearchDropdown']/form/input", "xpath:idRelative"],
+        ["xpath=//input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "e88e4a43-ca12-4d0c-a951-74d78e35b8ac",
+      "comment": "",
+      "command": "type",
+      "target": "id=header-search-bar",
+      "targets": [
+        ["id=header-search-bar", "id"],
+        ["name=q", "name"],
+        ["css=#header-search-bar", "css:finder"],
+        ["xpath=//input[@id='header-search-bar']", "xpath:attributes"],
+        ["xpath=//div[@id='SearchDropdown']/form/input", "xpath:idRelative"],
+        ["xpath=//input", "xpath:position"]
+      ],
+      "value": "cats"
+    }, {
+      "id": "f0a3191e-1789-4e4b-acd5-dc914f0efdbb",
+      "comment": "",
+      "command": "click",
+      "target": "css=.\\_20OHBqoDD71_8fv7tuG6u6:nth-child(1) .\\_17mZueOafzj0Dlja0Wc9os",
+      "targets": [
+        ["css=.\\_20OHBqoDD71_8fv7tuG6u6:nth-child(1) .\\_17mZueOafzj0Dlja0Wc9os", "css:finder"],
+        ["xpath=//div[@id='SearchDropdownContent']/a/div[2]/div", "xpath:idRelative"],
+        ["xpath=//a/div[2]/div", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "d75e5241-dee0-4371-8812-757b58e420ad",
+      "comment": "",
+      "command": "mouseOver",
+      "target": "css=.\\_20OHBqoDD71_8fv7tuG6u6:nth-child(1) .\\_17mZueOafzj0Dlja0Wc9os",
+      "targets": [
+        ["css=.\\_20OHBqoDD71_8fv7tuG6u6:nth-child(1) .\\_17mZueOafzj0Dlja0Wc9os", "css:finder"],
+        ["xpath=//div[@id='SearchDropdownContent']/a/div[2]/div", "xpath:idRelative"],
+        ["xpath=//a/div[2]/div", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "c430134d-bf25-4912-ac16-1c031429c8bf",
+      "comment": "",
+      "command": "assertText",
+      "target": "css=.\\_8ZLJI1-ZiP7pHJ_yO1L4Z:nth-child(3) .tbIApBd2DM_drfZQJjIum",
+      "targets": [
+        ["css=.\\_8ZLJI1-ZiP7pHJ_yO1L4Z:nth-child(3) .tbIApBd2DM_drfZQJjIum", "css:finder"],
+        ["xpath=//div[@id='SHORTCUT_FOCUSABLE_DIV']/div[2]/div/div/div/div[2]/div[3]/div[2]/div/div[5]/div/div[2]/div[3]/div/div[2]/div", "xpath:idRelative"],
+        ["xpath=//div[5]/div/div[2]/div[3]/div/div[2]/div", "xpath:position"]
+      ],
+      "value": "No NSFW, animal abuse, or cruelty"
+    }]
+  }, {
+    "id": "36c6a418-0167-4efd-b751-9d39a1fe2992",
+    "name": "FUN-RULES-11-ITEMS",
+    "commands": []
   }],
   "suites": [{
     "id": "a04be81f-08a9-42bf-aa04-679b1b2dd0c4",
