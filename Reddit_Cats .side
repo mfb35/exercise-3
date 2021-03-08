@@ -1,0 +1,21 @@
+{
+  "id": "8c8b0ce0-ae68-47ac-b5ad-7e82e55804b8",
+  "version": "2.0",
+  "name": "Reddit_Cats ",
+  "url": "",
+  "tests": [{
+    "id": "97d2109b-d5bc-4182-b7d3-3d36fbed09d9",
+    "name": "Untitled",
+    "commands": []
+  }],
+  "suites": [{
+    "id": "a04be81f-08a9-42bf-aa04-679b1b2dd0c4",
+    "name": "Default Suite",
+    "persistSession": false,
+    "parallel": false,
+    "timeout": 300,
+    "tests": ["97d2109b-d5bc-4182-b7d3-3d36fbed09d9"]
+  }],
+  "urls": [],
+  "plugins": []
+}
