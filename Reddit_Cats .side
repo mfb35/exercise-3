@@ -2,11 +2,18 @@
   "id": "8c8b0ce0-ae68-47ac-b5ad-7e82e55804b8",
   "version": "2.0",
   "name": "Reddit_Cats ",
-  "url": "",
+  "url": "https://www.reddit.com",
   "tests": [{
     "id": "97d2109b-d5bc-4182-b7d3-3d36fbed09d9",
-    "name": "Untitled",
-    "commands": []
+    "name": "Test_Go_To_Website",
+    "commands": [{
+      "id": "711593c2-0a34-4cd3-ad37-994ac8a43066",
+      "comment": "",
+      "command": "open",
+      "target": "/r/cats/",
+      "targets": [],
+      "value": ""
+    }]
   }],
   "suites": [{
     "id": "a04be81f-08a9-42bf-aa04-679b1b2dd0c4",
@@ -16,6 +23,6 @@
     "timeout": 300,
     "tests": ["97d2109b-d5bc-4182-b7d3-3d36fbed09d9"]
   }],
-  "urls": [],
+  "urls": ["https://www.reddit.com/r/cats/", "https://www.reddit.com/"],
   "plugins": []
 }
