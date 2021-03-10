@@ -450,15 +450,126 @@
   }, {
     "id": "36c6a418-0167-4efd-b751-9d39a1fe2992",
     "name": "FUN-RULES-11-ITEMS",
-    "commands": []
+    "commands": [{
+      "id": "eb28279f-1de7-401a-8e43-33266a2b0717",
+      "comment": "",
+      "command": "open",
+      "target": "/",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "e8a5be5c-64f0-4f7e-bd59-b02e07c7d9aa",
+      "comment": "",
+      "command": "click",
+      "target": "id=header-search-bar",
+      "targets": [
+        ["id=header-search-bar", "id"],
+        ["name=q", "name"],
+        ["css=#header-search-bar", "css:finder"],
+        ["xpath=//input[@id='header-search-bar']", "xpath:attributes"],
+        ["xpath=//div[@id='SearchDropdown']/form/input", "xpath:idRelative"],
+        ["xpath=//input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "7e161a8e-095f-4e89-a5c2-d0f2fd347cd1",
+      "comment": "",
+      "command": "type",
+      "target": "id=header-search-bar",
+      "targets": [
+        ["id=header-search-bar", "id"],
+        ["name=q", "name"],
+        ["css=#header-search-bar", "css:finder"],
+        ["xpath=//input[@id='header-search-bar']", "xpath:attributes"],
+        ["xpath=//div[@id='SearchDropdown']/form/input", "xpath:idRelative"],
+        ["xpath=//input", "xpath:position"]
+      ],
+      "value": "cats"
+    }, {
+      "id": "c82c47a0-f0c2-48c8-92b9-c4ab9cdfd1d5",
+      "comment": "",
+      "command": "click",
+      "target": "css=.\\_20OHBqoDD71_8fv7tuG6u6:nth-child(2) .\\_17mZueOafzj0Dlja0Wc9os",
+      "targets": [
+        ["css=.\\_20OHBqoDD71_8fv7tuG6u6:nth-child(2) .\\_17mZueOafzj0Dlja0Wc9os", "css:finder"],
+        ["xpath=//div[@id='SearchDropdownContent']/a[2]/div[2]/div", "xpath:idRelative"],
+        ["xpath=//a[2]/div[2]/div", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "ffeddd9c-943b-4f1b-a95d-e879d0272cc3",
+      "comment": "",
+      "command": "mouseOver",
+      "target": "css=.\\_2RkQc9Gtsq3cPQNZLYv4zc",
+      "targets": [
+        ["css=.\\_2RkQc9Gtsq3cPQNZLYv4zc", "css:finder"],
+        ["xpath=//div[@id='SHORTCUT_FOCUSABLE_DIV']/div[2]/div/div/div/div[2]/div/span/a/div", "xpath:idRelative"],
+        ["xpath=//span/a/div", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "657842dd-19ff-4e4e-8a6e-1443f4658e89",
+      "comment": "",
+      "command": "mouseOut",
+      "target": "css=.\\_2RkQc9Gtsq3cPQNZLYv4zc",
+      "targets": [
+        ["css=.\\_2RkQc9Gtsq3cPQNZLYv4zc", "css:finder"],
+        ["xpath=//div[@id='SHORTCUT_FOCUSABLE_DIV']/div[2]/div/div/div/div[2]/div/span/a/div", "xpath:idRelative"],
+        ["xpath=//span/a/div", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "633bd60f-4636-4245-aac1-f879a7889a1c",
+      "comment": "",
+      "command": "runScript",
+      "target": "window.scrollTo(0,200)",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "1b27cbb1-3377-484d-822a-5d17ca1e9d92",
+      "comment": "",
+      "command": "mouseOver",
+      "target": "id=USER_DROPDOWN_ID",
+      "targets": [
+        ["id=USER_DROPDOWN_ID", "id"],
+        ["css=#USER_DROPDOWN_ID", "css:finder"],
+        ["xpath=//button[@id='USER_DROPDOWN_ID']", "xpath:attributes"],
+        ["xpath=//div[@id='email-verification-tooltip-id']/div[2]/button", "xpath:idRelative"],
+        ["xpath=//div[2]/div/div[2]/button", "xpath:position"],
+        ["xpath=//button[contains(.,'User account menu')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "d6c720ad-cfab-4ebc-87e1-a869da1212e3",
+      "comment": "",
+      "command": "assertElementPresent",
+      "target": "xpath=//div[2]/div[11]/div/div/div",
+      "targets": [
+        ["css=.\\_8ZLJI1-ZiP7pHJ_yO1L4Z:nth-child(1)", "css:finder"],
+        ["xpath=//div[@id='SHORTCUT_FOCUSABLE_DIV']/div[2]/div/div/div/div[2]/div[3]/div[2]/div/div[4]/div/div[2]/div", "xpath:idRelative"],
+        ["xpath=//div[2]/div/div[4]/div/div[2]/div", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "b510715b-8546-4a87-b5e8-0c251c9b0322",
+      "comment": "",
+      "command": "assertElementNotPresent",
+      "target": "xpath=//div[2]/div[12]/div/div/div",
+      "targets": [
+        ["css=.\\_8ZLJI1-ZiP7pHJ_yO1L4Z:nth-child(2)", "css:finder"],
+        ["xpath=//div[@id='SHORTCUT_FOCUSABLE_DIV']/div[2]/div/div/div/div[2]/div[3]/div[2]/div/div[4]/div/div[2]/div[2]", "xpath:idRelative"],
+        ["xpath=//div/div[4]/div/div[2]/div[2]", "xpath:position"]
+      ],
+      "value": ""
+    }]
   }],
   "suites": [{
     "id": "a04be81f-08a9-42bf-aa04-679b1b2dd0c4",
-    "name": "Default Suite",
+    "name": "RedditCats",
     "persistSession": false,
     "parallel": false,
     "timeout": 300,
-    "tests": ["97d2109b-d5bc-4182-b7d3-3d36fbed09d9"]
+    "tests": ["9768462e-482e-4c99-89e8-44d9ea3a20fd", "5f5f3e0e-9c4b-4b9e-96bf-6d3e8f9b0699", "36c6a418-0167-4efd-b751-9d39a1fe2992", "d9dfe7ec-53ba-4e4a-87b6-2da9479b53ee", "d1b71352-f3ca-4018-9342-ed6c98dc52ce", "97d2109b-d5bc-4182-b7d3-3d36fbed09d9"]
   }],
   "urls": ["https://www.reddit.com/r/cats/", "https://www.reddit.com/"],
   "plugins": []
