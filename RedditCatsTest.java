@@ -22,12 +22,10 @@ import org.openqa.selenium.Keys;
 import java.util.*;
 import java.net.MalformedURLException;
 import java.net.URL;
-
 public class RedditCatsTest {
   private WebDriver driver;
   private Map<String, Object> vars;
   JavascriptExecutor js;
- 
   @Before
   public void setUp() {
     driver = new FirefoxDriver();
@@ -46,39 +44,7 @@ public class RedditCatsTest {
     driver.findElement(By.id("header-search-bar")).sendKeys("cats");
     driver.findElement(By.cssSelector(".\\_20OHBqoDD71_8fv7tuG6u6:nth-child(1) .\\_17mZueOafzj0Dlja0Wc9os")).click();
     js.executeScript("window.scrollTo(0,102)");
-    {
-      WebElement element = driver.findElement(By.cssSelector(".\\_3dZnYgFFpifT-M_Vs2FAq6:nth-child(3)"));
-      Actions builder = new Actions(driver);
-      builder.moveToElement(element).perform();
-    }
-    {
-      WebElement element = driver.findElement(By.tagName("body"));
-      Actions builder = new Actions(driver);
-      builder.moveToElement(element, 0, 0).perform();
-    }
-    {
-      WebElement element = driver.findElement(By.cssSelector(".\\_2RkQc9Gtsq3cPQNZLYv4zc"));
-      Actions builder = new Actions(driver);
-      builder.moveToElement(element).perform();
-    }
-    {
-      WebElement element = driver.findElement(By.tagName("body"));
-      Actions builder = new Actions(driver);
-      builder.moveToElement(element, 0, 0).perform();
-    }
-    js.executeScript("window.scrollTo(0,203)");
-    {
-      WebElement element = driver.findElement(By.linkText("Create Post"));
-      Actions builder = new Actions(driver);
-      builder.moveToElement(element).perform();
-    }
-    {
-      WebElement element = driver.findElement(By.tagName("body"));
-      Actions builder = new Actions(driver);
-      builder.moveToElement(element, 0, 0).perform();
-    }
-    js.executeScript("window.scrollTo(0,102)");
-    assertThat(driver.findElement(By.cssSelector(".\\_2CLbCoThTVSANDpeJGlI6a")).getText(), is("Join"));
+    assertThat(driver.findElement(By.cssSelector(".\\_1Q_zPN5YtTLQVG72WhRuf3 > .\\_1LHxa-yaHJwrPK8kuyv_Y4")).getText(), is("Join"));
   }
   @Test
   public void fUNRULE3() {
@@ -86,11 +52,6 @@ public class RedditCatsTest {
     driver.findElement(By.id("header-search-bar")).click();
     driver.findElement(By.id("header-search-bar")).sendKeys("cats");
     driver.findElement(By.cssSelector(".\\_20OHBqoDD71_8fv7tuG6u6:nth-child(1) .\\_17mZueOafzj0Dlja0Wc9os")).click();
-    {
-      WebElement element = driver.findElement(By.cssSelector(".\\_20OHBqoDD71_8fv7tuG6u6:nth-child(1) .\\_17mZueOafzj0Dlja0Wc9os"));
-      Actions builder = new Actions(driver);
-      builder.moveToElement(element).perform();
-    }
     assertThat(driver.findElement(By.cssSelector(".\\_8ZLJI1-ZiP7pHJ_yO1L4Z:nth-child(3) .tbIApBd2DM_drfZQJjIum")).getText(), is("No NSFW, animal abuse, or cruelty"));
   }
   @Test
@@ -98,66 +59,15 @@ public class RedditCatsTest {
     driver.get("https://www.reddit.com/");
     driver.findElement(By.id("header-search-bar")).click();
     driver.findElement(By.id("header-search-bar")).sendKeys("cats");
-    driver.findElement(By.cssSelector(".\\_20OHBqoDD71_8fv7tuG6u6:nth-child(2) .\\_17mZueOafzj0Dlja0Wc9os")).click();
+    driver.findElement(By.cssSelector(".\\_20OHBqoDD71_8fv7tuG6u6:nth-child(1)")).click();
+    driver.findElement(By.cssSelector(".\\_1hdDhVEGWEdVJcgy2XQ2Eq > path")).click();
     {
-      WebElement element = driver.findElement(By.cssSelector(".\\_2RkQc9Gtsq3cPQNZLYv4zc"));
-      Actions builder = new Actions(driver);
-      builder.moveToElement(element).perform();
-    }
-    {
-      WebElement element = driver.findElement(By.tagName("body"));
-      Actions builder = new Actions(driver);
-      builder.moveToElement(element, 0, 0).perform();
-    }
-    js.executeScript("window.scrollTo(0,200)");
-    {
-      WebElement element = driver.findElement(By.id("USER_DROPDOWN_ID"));
-      Actions builder = new Actions(driver);
-      builder.moveToElement(element).perform();
-    }
-    {
-      List<WebElement> elements = driver.findElements(By.cssSelector(".\\_8ZLJI1-ZiP7pHJ_yO1L4Z:nth-child(1)"));
+      List<WebElement> elements = driver.findElements(By.xpath("//div[2]/div[11]/div/div/div"));
       assert(elements.size() > 0);
     }
     {
-      List<WebElement> elements = driver.findElements(By.cssSelector(".\\_8ZLJI1-ZiP7pHJ_yO1L4Z:nth-child(2)"));
-      assert(elements.size() > 0);
-    }
-    {
-      List<WebElement> elements = driver.findElements(By.cssSelector(".\\_8ZLJI1-ZiP7pHJ_yO1L4Z:nth-child(3)"));
-      assert(elements.size() > 0);
-    }
-    {
-      List<WebElement> elements = driver.findElements(By.cssSelector(".\\_8ZLJI1-ZiP7pHJ_yO1L4Z:nth-child(4)"));
-      assert(elements.size() > 0);
-    }
-    {
-      List<WebElement> elements = driver.findElements(By.cssSelector(".\\_8ZLJI1-ZiP7pHJ_yO1L4Z:nth-child(5)"));
-      assert(elements.size() > 0);
-    }
-    {
-      List<WebElement> elements = driver.findElements(By.cssSelector(".\\_8ZLJI1-ZiP7pHJ_yO1L4Z:nth-child(6)"));
-      assert(elements.size() > 0);
-    }
-    {
-      List<WebElement> elements = driver.findElements(By.cssSelector(".\\_8ZLJI1-ZiP7pHJ_yO1L4Z:nth-child(7)"));
-      assert(elements.size() > 0);
-    }
-    {
-      List<WebElement> elements = driver.findElements(By.cssSelector(".\\_8ZLJI1-ZiP7pHJ_yO1L4Z:nth-child(8)"));
-      assert(elements.size() > 0);
-    }
-    {
-      List<WebElement> elements = driver.findElements(By.cssSelector(".\\_8ZLJI1-ZiP7pHJ_yO1L4Z:nth-child(9)"));
-      assert(elements.size() > 0);
-    }
-    {
-      List<WebElement> elements = driver.findElements(By.cssSelector(".\\_8ZLJI1-ZiP7pHJ_yO1L4Z:nth-child(10)"));
-      assert(elements.size() > 0);
-    }
-    {
-      List<WebElement> elements = driver.findElements(By.cssSelector(".\\_8ZLJI1-ZiP7pHJ_yO1L4Z:nth-child(11)"));
-      assert(elements.size() > 0);
+      List<WebElement> elements = driver.findElements(By.xpath("//div[2]/div[12]/div/div/div"));
+      assert(elements.size() == 0);
     }
   }
   @Test
@@ -176,18 +86,13 @@ public class RedditCatsTest {
     driver.findElement(By.cssSelector(".\\_20OHBqoDD71_8fv7tuG6u6:nth-child(1) .\\_17mZueOafzj0Dlja0Wc9os")).click();
     {
       WebElement element = driver.findElement(By.linkText("Sign Up"));
-      Actions builder = new Actions(driver);
-      builder.moveToElement(element).perform();
-    }
-    {
-      WebElement element = driver.findElement(By.linkText("Sign Up"));
       String attribute = element.getAttribute("href");
       vars.put("val", attribute);
     }
     assertEquals(vars.get("val").toString(), "https://www.reddit.com/register/?dest=https%3A%2F%2Fwww.reddit.com%2Fr%2Fcats%2F");
   }
   @Test
-  public void tESTTITLE() {
+  public void fUNTITLE() {
     driver.get("https://www.reddit.com/r/cats/");
     driver.findElement(By.id("header-search-bar")).click();
     driver.findElement(By.id("header-search-bar")).sendKeys("cats");

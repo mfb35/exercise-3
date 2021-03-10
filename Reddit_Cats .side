@@ -5,7 +5,7 @@
   "url": "https://www.reddit.com",
   "tests": [{
     "id": "97d2109b-d5bc-4182-b7d3-3d36fbed09d9",
-    "name": "TEST_TITLE",
+    "name": "FUN_TITLE",
     "commands": [{
       "id": "711593c2-0a34-4cd3-ad37-994ac8a43066",
       "comment": "",
@@ -129,102 +129,12 @@
       "targets": [],
       "value": ""
     }, {
-      "id": "07d0d1b3-7d63-40df-8e57-77a78690a34d",
-      "comment": "",
-      "command": "mouseOver",
-      "target": "css=.\\_3dZnYgFFpifT-M_Vs2FAq6:nth-child(3)",
-      "targets": [
-        ["css=.\\_3dZnYgFFpifT-M_Vs2FAq6:nth-child(3)", "css:finder"],
-        ["xpath=//div[@id='SHORTCUT_FOCUSABLE_DIV']/div/header/div/div[2]/div/div/a[3]", "xpath:idRelative"],
-        ["xpath=//a[contains(@href, '/rpan/')]", "xpath:href"],
-        ["xpath=//div[2]/div/div/a[3]", "xpath:position"]
-      ],
-      "value": ""
-    }, {
-      "id": "2401cbd0-ba71-4c11-9f02-f5b6a950cdb9",
-      "comment": "",
-      "command": "mouseOut",
-      "target": "css=.\\_3dZnYgFFpifT-M_Vs2FAq6:nth-child(3)",
-      "targets": [
-        ["css=.\\_3dZnYgFFpifT-M_Vs2FAq6:nth-child(3)", "css:finder"],
-        ["xpath=//div[@id='SHORTCUT_FOCUSABLE_DIV']/div/header/div/div[2]/div/div/a[3]", "xpath:idRelative"],
-        ["xpath=//a[contains(@href, '/rpan/')]", "xpath:href"],
-        ["xpath=//div[2]/div/div/a[3]", "xpath:position"]
-      ],
-      "value": ""
-    }, {
-      "id": "4e1f7171-10ea-42c2-9227-a7af0ae902ec",
-      "comment": "",
-      "command": "mouseOver",
-      "target": "css=.\\_2RkQc9Gtsq3cPQNZLYv4zc",
-      "targets": [
-        ["css=.\\_2RkQc9Gtsq3cPQNZLYv4zc", "css:finder"],
-        ["xpath=//div[@id='SHORTCUT_FOCUSABLE_DIV']/div[2]/div/div/div/div[2]/div/span/a/div", "xpath:idRelative"],
-        ["xpath=//span/a/div", "xpath:position"]
-      ],
-      "value": ""
-    }, {
-      "id": "8699719e-2936-46c4-b042-66750997c174",
-      "comment": "",
-      "command": "mouseOut",
-      "target": "css=.\\_2RkQc9Gtsq3cPQNZLYv4zc",
-      "targets": [
-        ["css=.\\_2RkQc9Gtsq3cPQNZLYv4zc", "css:finder"],
-        ["xpath=//div[@id='SHORTCUT_FOCUSABLE_DIV']/div[2]/div/div/div/div[2]/div/span/a/div", "xpath:idRelative"],
-        ["xpath=//span/a/div", "xpath:position"]
-      ],
-      "value": ""
-    }, {
-      "id": "8a59a417-0c66-41a9-9f2f-8c1ec55b7a19",
-      "comment": "",
-      "command": "runScript",
-      "target": "window.scrollTo(0,203)",
-      "targets": [],
-      "value": ""
-    }, {
-      "id": "069adac9-8025-4ea8-a835-46347c8394ab",
-      "comment": "",
-      "command": "mouseOver",
-      "target": "linkText=Create Post",
-      "targets": [
-        ["linkText=Create Post", "linkText"],
-        ["css=.\\_326PJFFRv8chYfOlaEYmGt", "css:finder"],
-        ["xpath=//a[contains(text(),'Create Post')]", "xpath:link"],
-        ["xpath=//div[@id='SHORTCUT_FOCUSABLE_DIV']/div[2]/div/div/div/div[2]/div[3]/div[2]/div/div/div[2]/div[5]/a", "xpath:idRelative"],
-        ["xpath=(//a[contains(@href, '/r/cats/submit')])[3]", "xpath:href"],
-        ["xpath=//div[5]/a", "xpath:position"],
-        ["xpath=//a[contains(.,'Create Post')]", "xpath:innerText"]
-      ],
-      "value": ""
-    }, {
-      "id": "058290f3-b0a7-40d6-89c0-67fa93ba7e0b",
-      "comment": "",
-      "command": "mouseOut",
-      "target": "linkText=Create Post",
-      "targets": [
-        ["linkText=Create Post", "linkText"],
-        ["css=.\\_326PJFFRv8chYfOlaEYmGt", "css:finder"],
-        ["xpath=//a[contains(text(),'Create Post')]", "xpath:link"],
-        ["xpath=//div[@id='SHORTCUT_FOCUSABLE_DIV']/div[2]/div/div/div/div[2]/div[3]/div[2]/div/div/div[2]/div[5]/a", "xpath:idRelative"],
-        ["xpath=(//a[contains(@href, '/r/cats/submit')])[3]", "xpath:href"],
-        ["xpath=//div[5]/a", "xpath:position"],
-        ["xpath=//a[contains(.,'Create Post')]", "xpath:innerText"]
-      ],
-      "value": ""
-    }, {
-      "id": "1ba04ae7-0408-4983-bc4a-3964f7a19195",
-      "comment": "",
-      "command": "runScript",
-      "target": "window.scrollTo(0,102)",
-      "targets": [],
-      "value": ""
-    }, {
       "id": "e56e9ccd-ac33-4b53-9e8b-5065ed14281a",
       "comment": "",
       "command": "assertText",
-      "target": "css=.\\_2CLbCoThTVSANDpeJGlI6a",
+      "target": "css=.\\_1Q_zPN5YtTLQVG72WhRuf3 > .\\_1LHxa-yaHJwrPK8kuyv_Y4",
       "targets": [
-        ["css=.\\_2CLbCoThTVSANDpeJGlI6a", "css:finder"],
+        ["css=.\\_1Q_zPN5YtTLQVG72WhRuf3 > .\\_1LHxa-yaHJwrPK8kuyv_Y4", "css:finder"],
         ["xpath=//div[@id='SHORTCUT_FOCUSABLE_DIV']/div[2]/div/div/div/div[2]/div/div/div/div/div[2]/button", "xpath:idRelative"],
         ["xpath=//div[2]/div/div/div/div/div[2]/button", "xpath:position"],
         ["xpath=//button[contains(.,'Join')]", "xpath:innerText"]
@@ -278,21 +188,6 @@
         ["css=.\\_20OHBqoDD71_8fv7tuG6u6:nth-child(1) .\\_17mZueOafzj0Dlja0Wc9os", "css:finder"],
         ["xpath=//div[@id='SearchDropdownContent']/a/div[2]/div", "xpath:idRelative"],
         ["xpath=//a/div[2]/div", "xpath:position"]
-      ],
-      "value": ""
-    }, {
-      "id": "945c0230-43de-45da-967d-2600d57d74c4",
-      "comment": "",
-      "command": "mouseOver",
-      "target": "linkText=Sign Up",
-      "targets": [
-        ["linkText=Sign Up", "linkText"],
-        ["css=.Z_HUY3BUsGOBOtdmH94ZS", "css:finder"],
-        ["xpath=//a[contains(text(),'Sign Up')]", "xpath:link"],
-        ["xpath=//div[@id='SHORTCUT_FOCUSABLE_DIV']/div/header/div/div[2]/div/div/a[2]", "xpath:idRelative"],
-        ["xpath=//a[contains(@href, 'https://www.reddit.com/register/?dest=https%3A%2F%2Fwww.reddit.com%2Fr%2Fcats')]", "xpath:href"],
-        ["xpath=//header/div/div[2]/div/div/a[2]", "xpath:position"],
-        ["xpath=//a[contains(.,'Sign Up')]", "xpath:innerText"]
       ],
       "value": ""
     }, {
@@ -425,17 +320,6 @@
       ],
       "value": ""
     }, {
-      "id": "d75e5241-dee0-4371-8812-757b58e420ad",
-      "comment": "",
-      "command": "mouseOver",
-      "target": "css=.\\_20OHBqoDD71_8fv7tuG6u6:nth-child(1) .\\_17mZueOafzj0Dlja0Wc9os",
-      "targets": [
-        ["css=.\\_20OHBqoDD71_8fv7tuG6u6:nth-child(1) .\\_17mZueOafzj0Dlja0Wc9os", "css:finder"],
-        ["xpath=//div[@id='SearchDropdownContent']/a/div[2]/div", "xpath:idRelative"],
-        ["xpath=//a/div[2]/div", "xpath:position"]
-      ],
-      "value": ""
-    }, {
       "id": "c430134d-bf25-4912-ac16-1c031429c8bf",
       "comment": "",
       "command": "assertText",
@@ -486,57 +370,24 @@
       ],
       "value": "cats"
     }, {
+      "id": "b0466026-cadb-4190-935c-96b110c34269",
+      "comment": "",
+      "command": "click",
+      "target": "css=.\\_20OHBqoDD71_8fv7tuG6u6:nth-child(1)",
+      "targets": [
+        ["css=.\\_20OHBqoDD71_8fv7tuG6u6:nth-child(1)", "css:finder"],
+        ["xpath=//div[@id='SearchDropdownContent']/a", "xpath:idRelative"],
+        ["xpath=(//a[contains(@href, '/r/cats')])[7]", "xpath:href"],
+        ["xpath=//div[34]/div/a", "xpath:position"]
+      ],
+      "value": ""
+    }, {
       "id": "c82c47a0-f0c2-48c8-92b9-c4ab9cdfd1d5",
       "comment": "",
       "command": "click",
-      "target": "css=.\\_20OHBqoDD71_8fv7tuG6u6:nth-child(2) .\\_17mZueOafzj0Dlja0Wc9os",
+      "target": "css=.\\_1hdDhVEGWEdVJcgy2XQ2Eq > path",
       "targets": [
-        ["css=.\\_20OHBqoDD71_8fv7tuG6u6:nth-child(2) .\\_17mZueOafzj0Dlja0Wc9os", "css:finder"],
-        ["xpath=//div[@id='SearchDropdownContent']/a[2]/div[2]/div", "xpath:idRelative"],
-        ["xpath=//a[2]/div[2]/div", "xpath:position"]
-      ],
-      "value": ""
-    }, {
-      "id": "ffeddd9c-943b-4f1b-a95d-e879d0272cc3",
-      "comment": "",
-      "command": "mouseOver",
-      "target": "css=.\\_2RkQc9Gtsq3cPQNZLYv4zc",
-      "targets": [
-        ["css=.\\_2RkQc9Gtsq3cPQNZLYv4zc", "css:finder"],
-        ["xpath=//div[@id='SHORTCUT_FOCUSABLE_DIV']/div[2]/div/div/div/div[2]/div/span/a/div", "xpath:idRelative"],
-        ["xpath=//span/a/div", "xpath:position"]
-      ],
-      "value": ""
-    }, {
-      "id": "657842dd-19ff-4e4e-8a6e-1443f4658e89",
-      "comment": "",
-      "command": "mouseOut",
-      "target": "css=.\\_2RkQc9Gtsq3cPQNZLYv4zc",
-      "targets": [
-        ["css=.\\_2RkQc9Gtsq3cPQNZLYv4zc", "css:finder"],
-        ["xpath=//div[@id='SHORTCUT_FOCUSABLE_DIV']/div[2]/div/div/div/div[2]/div/span/a/div", "xpath:idRelative"],
-        ["xpath=//span/a/div", "xpath:position"]
-      ],
-      "value": ""
-    }, {
-      "id": "633bd60f-4636-4245-aac1-f879a7889a1c",
-      "comment": "",
-      "command": "runScript",
-      "target": "window.scrollTo(0,200)",
-      "targets": [],
-      "value": ""
-    }, {
-      "id": "1b27cbb1-3377-484d-822a-5d17ca1e9d92",
-      "comment": "",
-      "command": "mouseOver",
-      "target": "id=USER_DROPDOWN_ID",
-      "targets": [
-        ["id=USER_DROPDOWN_ID", "id"],
-        ["css=#USER_DROPDOWN_ID", "css:finder"],
-        ["xpath=//button[@id='USER_DROPDOWN_ID']", "xpath:attributes"],
-        ["xpath=//div[@id='email-verification-tooltip-id']/div[2]/button", "xpath:idRelative"],
-        ["xpath=//div[2]/div/div[2]/button", "xpath:position"],
-        ["xpath=//button[contains(.,'User account menu')]", "xpath:innerText"]
+        ["css=.\\_1hdDhVEGWEdVJcgy2XQ2Eq > path", "css:finder"]
       ],
       "value": ""
     }, {
