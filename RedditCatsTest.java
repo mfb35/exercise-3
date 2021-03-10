@@ -43,7 +43,6 @@ public class RedditCatsTest {
     driver.findElement(By.id("header-search-bar")).click();
     driver.findElement(By.id("header-search-bar")).sendKeys("cats");
     driver.findElement(By.cssSelector(".\\_20OHBqoDD71_8fv7tuG6u6:nth-child(1) .\\_17mZueOafzj0Dlja0Wc9os")).click();
-    js.executeScript("window.scrollTo(0,102)");
     assertThat(driver.findElement(By.cssSelector(".\\_1Q_zPN5YtTLQVG72WhRuf3 > .\\_1LHxa-yaHJwrPK8kuyv_Y4")).getText(), is("Join"));
   }
   @Test
@@ -60,7 +59,6 @@ public class RedditCatsTest {
     driver.findElement(By.id("header-search-bar")).click();
     driver.findElement(By.id("header-search-bar")).sendKeys("cats");
     driver.findElement(By.cssSelector(".\\_20OHBqoDD71_8fv7tuG6u6:nth-child(1)")).click();
-    driver.findElement(By.cssSelector(".\\_1hdDhVEGWEdVJcgy2XQ2Eq > path")).click();
     {
       List<WebElement> elements = driver.findElements(By.xpath("//div[2]/div[11]/div/div/div"));
       assert(elements.size() > 0);
@@ -97,6 +95,6 @@ public class RedditCatsTest {
     driver.findElement(By.id("header-search-bar")).click();
     driver.findElement(By.id("header-search-bar")).sendKeys("cats");
     driver.findElement(By.cssSelector(".\\_20OHBqoDD71_8fv7tuG6u6:nth-child(1) .\\_17mZueOafzj0Dlja0Wc9os")).click();
-    assertThat(driver.findElement(By.cssSelector(".\\_2yYPPW47QxD4lFQTKpfpLQ")).getText(), is("Cats"));
+    assertThat(driver.getTitle(), is("Cats"));
   }
 }
